@@ -9,4 +9,6 @@ echo "Copy .vim/ dir to your home directory..."
 cp -r vim/ ~/
 rm -rf ~/.vim
 mv ~/vim/ ~/.vim
+echo "Copy my bashrc setting into your home directory..."
+cp bashrc ~/.bashrc
 echo "Finished!"
