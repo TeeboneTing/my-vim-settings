@@ -27,11 +27,14 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
-" set pig syntax
+" set pig and scala syntax
 augroup filetypedetect
 	  au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 	  au BufNewFile,BufRead *.scala set filetype=scala syntax=scala
   augroup END 
+
+" set mouse mode
+set mouse=nv
 
 " show current line on status bar
 "set ruler
