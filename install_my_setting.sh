@@ -11,4 +11,6 @@ rm -rf ~/.vim
 mv ~/vim/ ~/.vim
 echo "Copy my bashrc setting into your home directory..."
 cp bashrc ~/.bashrc
+echo "Copy my tmux setting into your home directory..."
+cp tmux.conf ~/.tmux.conf
 echo "Finished!"
